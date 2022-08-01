@@ -10,7 +10,7 @@
       "prefix": "lazy",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/ngx-lazy-load-images/tsconfig.lib.json",
             "project": "projects/ngx-lazy-load-images/ng-package.json"
@@ -28,20 +28,8 @@
             "tsConfig": "projects/ngx-lazy-load-images/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-lazy-load-images/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-lazy-load-images/tsconfig.lib.json",
-              "projects/ngx-lazy-load-images/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       }
-    }},
-  "defaultProject": "ngx-lazy-load-images"
+    }
+  }
 }

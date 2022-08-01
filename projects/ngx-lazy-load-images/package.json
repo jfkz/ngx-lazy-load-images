@@ -1,6 +1,6 @@
 {
   "name": "@jfkz/ngx-lazy-load-images",
-  "version": "3.0.0",
+  "version": "7.0.0",
   "description": "Image lazy load library for Angular 2+.",
   "author": "Jesús Botella, jfkz",
   "keywords": [
@@ -24,7 +24,7 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^10.0.0",
-    "@angular/core": "^10.0.0"
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0"
   }
 }
