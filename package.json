@@ -2,14 +2,13 @@
   "name": "@jfkz/ngx-lazy-load-images-compiler",
   "version": "3.0.0",
   "scripts": {
-    "build": "ng build ngx-lazy-load-images --prod",
-    "build:dev": "ng build ngx-lazy-load-images",
+    "build": "ng build @jfkz/ngx-lazy-load-images --prod",
+    "build:dev": "ng build @jfkz/ngx-lazy-load-images",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "changelog": "standard-version"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~10.2.5",
     "@angular/common": "~10.2.5",

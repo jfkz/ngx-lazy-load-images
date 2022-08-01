@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-lazy-load-images": {
+    "@jfkz/ngx-lazy-load-images": {
       "projectType": "library",
       "root": "projects/ngx-lazy-load-images",
       "sourceRoot": "projects/ngx-lazy-load-images/src",
